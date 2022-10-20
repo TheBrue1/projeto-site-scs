@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+   
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#160633;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 140px;
+}
+img{
+    padding-left: 100px;
+    }
+ul{
+    padding-right: 30px;
+}
+li{
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 35px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+  a {
+    color: white;
+    font-size:large;
+}
+a:hover{
+    color:#0DB6B5;
+    transition: 0.3s all;
+}
+main{
+    width: 1250px;
+    margin: auto;
+
+}
+main > article {
+   background-color:#1f0847;
+   height: 500px;
+}
+main > article > p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 20px ;
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+}
+main > article > a{
+    margin: 400px;
+}
+
+main > article > p > span {
+    color: #009CF4;
+}
+main > article > a:hover{
+    color:rgb(132, 14, 201) ;
+    transition: 0.3s all;
+}
+#inscreva-se-btn{
+   background:#0475B5 ; 
+   padding: 30px;
+ 
